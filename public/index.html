@@ -31,7 +31,16 @@
 
       <!-- Parallax Image -->
       <div class="parallax-container">
-        <div class="parallax"><img src="imgs/background-img.png"></img></div>
+        <div class="title">
+          <div class="title_text">
+            <h1>I'm a</h1>
+            <h1><span id="changingword">Developer</span></h1>
+          </div>
+          <a class="waves-effect waves-light btn-large pulse light-blue darken-4"><div class="valign-wrapper">Learn More<i class="material-icons">keyboard_arrow_right</i></div> </a>
+        </div>
+        <div class="parallax" style="background-color: black;">
+          <img class="overlay" src="imgs/background-img.png"></img>
+        </div>
       </div>
 
       <div class="section white">
@@ -47,6 +56,7 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/custom.js"></script>
       <script>
         $(document).ready(function(){
           $('.parallax').parallax();
