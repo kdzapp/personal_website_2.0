@@ -1,5 +1,7 @@
 body, html {
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .bg {
@@ -15,17 +17,27 @@ body, html {
     background-size: cover;
 }
 
-.overlay {
-    opacity:0.5;
+.title-overlay {
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  opacity: 0.6;
+  padding-top: 15%;
 }
 
-.title {
-  margin-top: 8%;
+.title-text {
   text-align: center;
+  color: #FAFAFA;
+  font-family: Roboto-Thin;
 }
 
-.title_text {
-  font-size: 100pt;
-  color: #FAFAFA;
-  margin-bottom: 6%;
+.image-content {
+  width: 100%;
+}
+
+.section {
+  margin-top: 5rem; 
+  margin-bottom: 5rem;
 }
