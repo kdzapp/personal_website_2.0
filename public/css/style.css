@@ -38,6 +38,21 @@ body, html {
 }
 
 .section {
-  margin-top: 5rem; 
-  margin-bottom: 5rem;
+  padding-top: 5rem; 
+  padding-bottom: 5rem;
+  margin-bottom: -1.5rem;
+}
+
+.timeline-filler {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.timeline-start {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.timeline-element {
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
 }
